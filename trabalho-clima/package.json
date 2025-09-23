@@ -1,0 +1,22 @@
+{
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-react": "^4.0.3",
+        "vite": "^4.4.5"
+    },
+    "name": "trabalho-clima",
+    "version": "1.0.0",
+    "description": "App de clima minimalista com ícones arredondados. Mostra temperatura atual, sensação térmica e condição com imagem, detecta sua localização e permite buscar qualquer cidade/estado/país.",
+    "main": "vite.config.js",
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}
