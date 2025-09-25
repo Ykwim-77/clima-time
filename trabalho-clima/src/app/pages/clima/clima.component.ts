@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, inject, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-clima',
@@ -7,9 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ClimaComponent implements OnInit {
 
+  navegaodr = inject(Router);
+
   constructor() { }
 
   ngOnInit() {
   }
 
+  navegarParaTelaTelaPesquisa() {
+    this.navegaodr.navigate(['pesquisa']);
+  }
 }
