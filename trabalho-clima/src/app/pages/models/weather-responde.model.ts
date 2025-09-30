@@ -10,4 +10,7 @@ export interface weather {
 }
 export interface main {
     temp: number;
+    feels_like: number;
+    temp_min: number;
+    temp_max: number;
 }
