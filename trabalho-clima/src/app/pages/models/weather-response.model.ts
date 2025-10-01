@@ -1,6 +1,7 @@
 export interface weatherResponse {
     weather: weather[];
     main: main;
+    name: string;
 }
 export interface weather {
     id: number;
